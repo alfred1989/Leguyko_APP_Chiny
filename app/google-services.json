@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "418128194570",
+    "firebase_url": "https://chinylegutko-default-rtdb.firebaseio.com",
+    "project_id": "chinylegutko",
+    "storage_bucket": "chinylegutko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418128194570:android:e87fa0b82fa6577289c3f3",
+        "android_client_info": {
+          "package_name": "com.example.demofirebasetorecycler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418128194570-or20iadsrhoou7fgn00bkpacaapdmujj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg1m3zj5jhyon4Wdd89FYi1gg52A-cxKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418128194570-or20iadsrhoou7fgn00bkpacaapdmujj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

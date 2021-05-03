@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="bordercolor">#E91E63</color>
+    <color name="grenn">#008000</color>
+    <color name="with">#E9F1E9</color>
+    <color name="fioletowy">#9C27B0</color>
+    <color name="black">#000000</color>
+</resources>

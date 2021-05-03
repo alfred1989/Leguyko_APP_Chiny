@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#000000"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*"
+        >
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button android:text="List DB"
+                android:textColor="@color/with"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:onClick="viewLigtCroop"
+                android:drawableLeft="@drawable/ic_list"
+                android:background="@color/grenn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+
+
+            <Button android:text="add cropp"
+                android:textColor="@color/with"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:background="@color/fioletowy"
+                android:drawableLeft="@drawable/add_cropp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+
+            <Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button android:text="Button"
+                android:layout_width="fill_parent"
+                android:onClick="cameraButton"
+
+                android:layout_height="fill_parent"/>
+
+            <Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+        </TableRow>
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+
+            <Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

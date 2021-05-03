@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:id="@+id/test"
+    android:stretchColumns="1"
+    tools:ignore="InvalidId">
+
+    <TableRow
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_marginRight="15dp"
+            android:textColor="#00FF00"
+            android:text="Nazwa" />
+
+        <TextView
+            android:id="@+id/nazwa_towaruText"
+            android:layout_height="80dp"
+            android:width="0dip"
+            android:textColor="#00FF00"
+            android:inputType="textMultiLine"
+            android:text="Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00FF00"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_marginRight="15dp"
+            android:textColor="#00FF00"
+            android:text="Producent" />
+
+        <TextView
+            android:id="@+id/producentText"
+            android:textColor="#00FF00"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#00FF00"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_marginRight="15dp"
+            android:textColor="#00FF00"
+            android:text="Numer Reprodukcji" />
+
+        <TextView
+            android:id="@+id/nr_reprodukcji_Text"
+            android:text="Code"
+            android:textColor="#00FF00"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_marginRight="15dp"
+            android:textColor="#00FF00"
+            android:text="Nazwa łać." />
+
+
+        <TextView
+            android:id="@+id/gatunek_lacText"
+            android:textColor="#00FF00"
+            android:text="Gatunek" />
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/text_5"
+            android:layout_marginRight="15dp"
+            android:textColor="#00FF00"
+            android:text="Plantacja Typowa/Nietypowa" />
+
+        <TextView
+            android:id="@+id/plantacja_typowa_Text"
+            android:text="Standard plantation"
+            android:textColor="#00FF00"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            />
+    </TableRow>
+
+    <!--    <TableRow-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginBottom="5dp">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_marginRight="15dp"-->
+    <!--            android:text="Powierzchnia plantacji" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/plantation_area"-->
+    <!--            android:text="powierzchnia plantacji"-->
+    <!--            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"-->
+    <!--            />-->
+    <!--    </TableRow>-->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/text_6"
+            android:layout_marginRight="15dp"
+            android:textColor="#00FF00"
+            android:text="Partia" />
+        <TextView
+            android:id="@+id/partia_Text"
+            android:textColor="#00FF00"
+            android:layout_marginRight="15dp"
+            android:text="Party" />
+
+    </TableRow>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/editicon"
+            android:layout_width="193dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_edit" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/deleteicon"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:src="@drawable/delete" />-->
+    </LinearLayout>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="335dp"-->
+    <!--        android:orientation="horizontal"/>-->
+
+    <!--    <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--        android:id="@+id/img1"-->
+    <!--        android:layout_width="80dp"-->
+    <!--        android:layout_height="80dp"-->
+    <!--        android:layout_gravity="center_vertical"-->
+    <!--        android:src="@mipmap/ic_launcher"-->
+    <!--        app:civ_border_color="#FF000000"-->
+    <!--        app:civ_border_width="2dp" />-->
+
+    <!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="vertical"/>-->
+    <!--    <TableRow-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginBottom="5dp">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_marginRight="15dp"-->
+    <!--            android:text="Miejsce siewu" />-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/comment"-->
+    <!--            android:text="Growing area" />-->
+    <!--    </TableRow>-->
+    <!--    <TableRow-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_marginBottom="5dp">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_marginRight="15dp"-->
+    <!--            android:text="Kontrakt" />-->
+
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/contract"-->
+    <!--            android:text="BRAK" />-->
+    <!--    </TableRow>-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        />
+</TableLayout>
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    app:cardCornerRadius="5dp"-->
+    <!--    android:elevation="5dp"-->
+    <!--    app:cardUseCompatPadding="true">-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="398dp"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:padding="15dp">-->
+
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="335dp"-->
+    <!--            android:orientation="horizontal">-->
+
+    <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--                android:id="@+id/img1"-->
+    <!--                android:layout_width="80dp"-->
+    <!--                android:layout_height="80dp"-->
+    <!--                android:layout_gravity="center_vertical"-->
+    <!--                android:src="@mipmap/ic_launcher"-->
+    <!--                app:civ_border_color="#FF000000"-->
+    <!--                app:civ_border_width="2dp" />-->
+
+    <!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/producentText"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Demo Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/gatunek_lacText"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Course Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/nazwa_towaruText"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/odmianaText"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/kolor_EN_Text"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/grupa_EN_Text"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/podgrupa_EN_Text"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+    <!--                <TextView-->
+    <!--                    android:id="@+id/szacowany_plon_Text"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+    <!--                <TextView-->
+    <!--                    android:id="@+id/obecność_off_Text"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+    <!--                <TextView-->
+    <!--                    android:id="@+id/procent_off_Text"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+    <!--                <TextView-->
+    <!--                    android:id="@+id/plantacja_typowa_Text"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:text="This is Email Name"-->
+    <!--                    android:textColor="#000"-->
+    <!--                    android:textSize="25sp" />-->
+    <!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/editicon"-->
+    <!--                android:layout_width="193dp"-->
+    <!--                android:layout_height="40dp"-->
+    <!--                android:src="@drawable/edit" />-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/deleteicon"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="40dp"-->
+    <!--                android:src="@drawable/delete" />-->
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+
+
+
+    <!--</androidx.cardview.widget.CardView>-->

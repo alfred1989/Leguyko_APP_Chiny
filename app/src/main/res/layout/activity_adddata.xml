@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_producent"
+        android:textSize="20sp"
+        android:hint="Your Name"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_gatunek"
+        android:textSize="20sp"
+        android:hint="Your Course"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_nazwa_towaru"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_odmiana"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_kolor_EN"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_grupa_EN"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_podgrupa_EN"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_szacowany_plon"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_obecność_off"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_procent_off"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_opis"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_plantacja_typowa"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_uwagi"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_partia"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_nr_reprodukcji"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_id_plantacji"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_komentarz_po_polsku"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_opis_po_polsku"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_symbol"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+<!--    <EditText-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/add_podgrupa_EN"-->
+<!--        android:textSize="20sp"-->
+<!--        android:hint="Your Email"-->
+<!--        android:layout_marginBottom="15dp"-->
+<!--        android:textColor="#000"/>-->
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_purl"
+        android:textSize="20sp"
+        android:hint="Profile Image URL"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/add_submit"
+        android:textSize="20sp"
+        android:text="Add to Firebase"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_back"
+            android:textSize="20sp"
+            android:text="Back"/>
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
